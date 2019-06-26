@@ -1,4 +1,4 @@
-# React Scroll Animate
+# React Scroll Animation
 
 React component to animate elements on scroll with [animate.css](https://daneden.github.io/animate.css/).
 
