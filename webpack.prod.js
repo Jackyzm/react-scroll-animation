@@ -7,9 +7,9 @@ process.env.NODE_ENV = 'production';
 
 module.exports = {
   mode: 'production',
-  entry: './src/react-scroll-animate.js',
+  entry: './src/react-scroll-animation.js',
   output: {
-    filename: 'react-scroll-animate.min.js',
+    filename: 'react-scroll-animation.min.js',
     path: path.resolve(__dirname, './dist'),
     libraryTarget: 'commonjs2'
   },

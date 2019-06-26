@@ -1,2 +1,10 @@
 .App {
-    text-align: center;}
+    text-align: center;
+}
+
+.demo {
+    width: 100px;
+    height: 100px;
+    background-color: #00f;
+    margin: 0 auto;
+}

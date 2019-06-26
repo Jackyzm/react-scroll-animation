@@ -1,10 +1,18 @@
 {
-  "name": "react-scroll-animate",
-  "version": "1.0.0",
+  "name": "react-scroll-animation",
+  "version": "1.0.2",
   "author": "Jackyzm",
-  "homepage": "https://github.com/Jackyzm/react-scroll-animate",
+  "homepage": "https://github.com/Jackyzm/react-scroll-animation",
   "license": "MIT",
-  "main": "./dist/react-scroll-animate.min.js",
+  "main": "./dist/react-scroll-animation.min.js",
+  "keywords": [
+    "react-scroll-animation",
+    "react",
+    "react-component",
+    "animate",
+    "scroll",
+    "react-scroll"
+  ],
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
@@ -59,7 +67,7 @@
     "react-app-polyfill": "^1.0.1",
     "react-dev-utils": "^9.0.1",
     "react-dom": "^16.8.6",
-    "react-scroll-animate": "/Users/zengmin/Desktop/myProject/react-scroll-animate",
+    "react-scroll-animation": "^1.0.1",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "semver": "6.0.0",

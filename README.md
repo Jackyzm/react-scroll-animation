@@ -5,13 +5,13 @@ React component to animate elements on scroll with [animate.css](https://daneden
 ## Install:
 
 ```
-npm install react-scroll-animate --save
+npm install react-scroll-animation --save
 ```
 
 ## Most Simple Use:
 
 ```
-import ScrollAnimation from 'react-scroll-animate';
+import ScrollAnimation from 'react-scroll-animation';
 <ScrollAnimation animateIn="fadeIn">
   // ...
 </ScrollAnimation>
@@ -50,7 +50,7 @@ By default the code checks to see if the element is visible within the window. T
 for example:
 
 ```
-import ScrollAnimation from 'react-scroll-animate';
+import ScrollAnimation from 'react-scroll-animation';
 <ScrollAnimation
   animateIn="fadeIn"
   scrollParent={document.getElementByClassNames['xxx'][0]}
@@ -64,14 +64,14 @@ import ScrollAnimation from 'react-scroll-animate';
 ### Build the component:
 
 ```
-npm run build / yarn build
+npm run dist / yarn dist
 ```
 
 ### Run the Demo project:
 
 ```
-git clone https://github.com/Jackyzm/react-scroll-animate.git
-cd react-scroll-animate
+git clone https://github.com/Jackyzm/react-scroll-animation.git
+cd react-scroll-animation
 npm install
 npm start
 ```

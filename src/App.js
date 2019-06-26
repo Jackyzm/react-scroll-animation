@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ScrollAnimation from 'react-scroll-animate';
+import ScrollAnimation from 'react-scroll-animation';
 
 function App() {
   return (
@@ -19,15 +19,15 @@ function App() {
         </a>
       </header>
       <div>
-        <div style={{height: 2000}} />
+        <div style={{height: 800}} />
         <ScrollAnimation
           offset={150}
           animateIn="fadeInUp"
           animateOut="fadeOutDown"
         >
-          <button>click me</button>
+          <div className="demo" />
         </ScrollAnimation>
-        <div style={{height: 1500}} />
+        <div style={{height: 1000}} />
       </div>
     </div>
   );
